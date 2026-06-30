@@ -23,7 +23,7 @@ export const gameConfig: GameConfig = {
   },
   updateCadence: "Weekly checks",
   dataSources: {
-    officialGameUrl: "https://www.roblox.com/discover",
+    officialGameUrl: "https://www.roblox.com/games/111862336710239/Backstreet-Survival-Beta",
     discord: "#",
     trello: "#"
   },
