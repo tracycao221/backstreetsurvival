@@ -21,6 +21,9 @@ export const runtimeConfig = {
   adsterraNative2ScriptUrl: readEnv(process.env.NEXT_PUBLIC_ADSTERRA_NATIVE_2_SCRIPT_URL),
   adsterraLeaderboardId: readEnv(process.env.NEXT_PUBLIC_ADSTERRA_LEADERBOARD_ID),
   adsterraSmartLinkUrl: readEnv(process.env.NEXT_PUBLIC_ADSTERRA_SMARTLINK_URL),
+  adsterraSocialBarScriptUrl:
+    readEnv(process.env.NEXT_PUBLIC_ADSTERRA_SOCIAL_BAR_SCRIPT_URL) ||
+    "https://pl30138378.effectivecpmnetwork.com/f7/8a/9c/f78a9cd72afae0cd3071435755df400f.js",
   adsterraPopunderScriptUrl: readEnv(process.env.NEXT_PUBLIC_ADSTERRA_POPUNDER_SCRIPT_URL),
   analyticsId: readEnv(process.env.NEXT_PUBLIC_ANALYTICS_ID)
 };
